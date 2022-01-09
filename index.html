@@ -5,31 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="container">
+    <img class="top-img" src="images/bg-pattern-top.svg">
+    <img class="bot-img" src="images/bg-pattern-bottom.svg">
+    <div class="card">
+      <img class="ptn-card" src="images/bg-pattern-card.svg">
+      <img class="vik-img" src="images/image-victor.jpg">
+      <div class="content">
+        <div class="part1">
+          <div class="part1-a">
+            <span class="a-txt name">Victor Crest</span>
+            <span class="b-txt">26</span>   
+          </div>
+          <br>
+          <span class="b-txt">London</span>
+        </div>
+        <hr class="sep">
+        <div class="part2">
+          <div class="part2-numbers">
+            <span class="a-txt">80K</span>
+            <span class="b-txt labels">Followers</span>  
+          </div>
+          <div class="part2-numbers">
+            <span class="a-txt">803K</span>
+            <span class="b-txt labels">Likes</span>  
+          </div>
+          <div class="part2-numbers">
+            <span class="a-txt">1.4K</span>
+            <span class="b-txt labels">Photos</span>   
+          </div>
+           
+        </div>
+      </div>
+      
+    </div>
   </div>
+  
+  
 </body>
 </html>
